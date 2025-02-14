@@ -14,9 +14,9 @@ sh
 
 - Ahora instala Playwright y Cucumber:
 sh
-    1. npm install --save-dev @playwright/test
-    2. npx playwright install
-    3. npm install --save-dev @cucumber/cucumber
+    * npm install --save-dev @playwright/test
+    * npx playwright install
+    * npm install --save-dev @cucumber/cucumber
 
 ### 2. Configurar Cucumber con Playwright
 #### 2.1. Crea la estructura de carpetas
