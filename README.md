@@ -8,9 +8,9 @@
 ### 1. Instalación
 - Primero, instala Playwright y Cucumber en tu proyecto. Si aún no tienes un proyecto configurado, crea uno con npm:
 sh
-    *-* mkdir mi-proyecto-playwright
-    *-* cd mi-proyecto-playwright
-    *-* npm init -y
+    * mkdir mi-proyecto-playwright
+    * cd mi-proyecto-playwright
+    * npm init -y
 
 - Ahora instala Playwright y Cucumber:
 sh
