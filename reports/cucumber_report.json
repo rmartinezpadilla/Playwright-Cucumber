@@ -1,0 +1,76 @@
+[
+  {
+    "description": "  Como usuario de la aplicación\n  Quiero iniciar sesión con mis credenciales\n  Para acceder a mi cuenta",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-de-usuario;inicio-de-sesión-exitoso",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Inicio de sesión exitoso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que el usuario está en la página de login",
+            "match": {
+              "location": "file:/Users/t-evolvers/Documents/Automatizaciones/Playwright&Cucumber/src/steps/login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2405329749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "ingresa su usuario y contraseña correctos",
+            "match": {
+              "location": "file:/Users/t-evolvers/Documents/Automatizaciones/Playwright&Cucumber/src/steps/login.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 312840250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "hace clic en el botón de login",
+            "match": {
+              "location": "file:/Users/t-evolvers/Documents/Automatizaciones/Playwright&Cucumber/src/steps/login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1555817916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "debería ver el mensaje de bienvenida",
+            "match": {
+              "location": "file:/Users/t-evolvers/Documents/Automatizaciones/Playwright&Cucumber/src/steps/login.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149805333
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-de-usuario",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login de usuario",
+    "tags": [],
+    "uri": "src/features/login.feature"
+  }
+]

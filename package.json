@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "npx bddgen && npx playwright test",
+    "watch:bdd": "nodemon -w ./src/features -w ./src/steps -e feature,js,ts --exec \"npx bddgen\"",
+    "watch:pw": "playwright test --ui",
+    "watch": "run-p watch:*",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@faker-js/faker": "^9.5.0",
+    "@playwright/test": "^1.50.1",
+    "cucumber": "^6.0.7",
+    "playwright": "^1.50.1",
+    "playwright-bdd": "^8.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
